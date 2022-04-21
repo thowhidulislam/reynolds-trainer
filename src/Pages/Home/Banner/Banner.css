@@ -1,0 +1,58 @@
+.banner {
+    min-height: 600px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, .5), rgba(4, 9, 30, .7)), url(../../../images/banner-image-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(50%);
+    margin-bottom: 0;
+    margin-left: 20%;
+}
+
+.banner-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+}
+
+.signup-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 170px;
+    font-size: 16px;
+    border: 2px solid rgba(13, 202, 240, 0.6);
+    background: none;
+    color: #fff;
+    border-radius: 30px;
+    padding: 15px 40px;
+
+}
+
+.signup-btn:hover {
+    background-color: rgba(13, 202, 240, 0.6);
+}
+
+.about-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: 2px solid rgba(13, 202, 240, 0.6);
+    background: none;
+    color: #fff;
+    border-radius: 30px;
+    padding: 15px 40px;
+
+}
+
+.about-btn:hover {
+    background-color: rgba(13, 202, 240, 0.6);
+}
