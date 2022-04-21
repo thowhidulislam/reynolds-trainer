@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Pilates",
+        "price": "30",
+        "description": "A responsive navigation header, including support for branding, navigation, and more. Here’s an example of all the sub-components included in a responsive light-themed navbar that automatically collapses at the lg (large) breakpoint.",
+        "img": "https://i.ibb.co/nD8ssVT/pilates-service-1.png"
+    },
+    {
+        "id": 2,
+        "name": "Abs",
+        "price": "60",
+        "description": "A responsive navigation header, including support for branding, navigation, and more. Here’s an example of all the sub-components included in a responsive light-themed navbar that automatically collapses at the lg (large) breakpoint.",
+        "img": "https://i.ibb.co/j52K6qX/abs-service-2.png"
+    },
+    {
+        "id": 3,
+        "name": "Cardio",
+        "price": "40",
+        "description": "A responsive navigation header, including support for branding, navigation, and more. Here’s an example of all the sub-components included in a responsive light-themed navbar that automatically collapses at the lg (large) breakpoint.",
+        "img": " https://i.ibb.co/vH9PhJL/cardio-service-3.png"
+    }
+]
