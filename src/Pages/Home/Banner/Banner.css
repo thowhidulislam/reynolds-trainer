@@ -24,6 +24,14 @@
     color: #fff;
 }
 
+.banner-details {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
 .signup-btn {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -75,12 +83,18 @@
 @media only screen and (max-width: 575px) {
 
     .banner {
-        min-height: 700px;
+        min-height: 500px;
         width: 100%;
     }
 
     .banner-title {
         font-size: 20px;
+    }
+
+    .banner-details {
+
+        font-size: 10px;
+        margin-top: 15px;
     }
 
     .banner-btn {
