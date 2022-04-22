@@ -1,6 +1,6 @@
 # Reynolds
 
-Live website Link [Click here](https://reynolds-gym-thowhidulislam.netlify.app).
+Live website Link [Click here](https://reynolds-trainer.firebaseapp.com).
 
 ## Features of the website
 - Used email-password based authentication for registration and login.
