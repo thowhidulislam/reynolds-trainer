@@ -59,7 +59,6 @@ const LogIn = () => {
 
     }
 
-
     return (
         <div className='container w-50 mx-auto mb-5'>
             <h1 className='text-center my-4'>Login</h1>
