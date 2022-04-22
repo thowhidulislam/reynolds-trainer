@@ -56,3 +56,38 @@
 .about-btn:hover {
     background-color: rgba(13, 202, 240, 0.6);
 }
+
+
+/*---------------------------------------
+    mobile device 575px and tablet 992px
+------------------------------------------*/
+@media only screen and (max-width: 992px) {
+
+    .banner-text {
+        transform: translateY(50%);
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+
+    .banner {
+        min-height: 700px;
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 20px;
+    }
+
+    .banner-btn {
+        flex-direction: column;
+    }
+
+    .signup-btn {
+        margin-bottom: 10px;
+    }
+}

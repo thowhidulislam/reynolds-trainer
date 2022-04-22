@@ -4,7 +4,7 @@ import './GymInfos.css'
 const GymInfos = () => {
     return (
         <div className='gym-infos-container mt-5'>
-            <div className='d-flex justify-content-between container '>
+            <div className='info-container d-flex justify-content-between container '>
                 <div className='info'>
                     <h2>10</h2>
                     <p>Awards Won</p>

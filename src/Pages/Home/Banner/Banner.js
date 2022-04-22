@@ -13,7 +13,7 @@ const Banner = () => {
                     <span className='banner-title-bottom'>Your New Personal Trainer</span>
                 </h2>
                 <p className='banner-details text-white w-50'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus accusantium omnis est in! Culpa dicta fugiat doloribus quisquam accusantium eos.</p>
-                <div className='d-flex'>
+                <div className='d-flex banner-btn'>
                     <Link to='/signup'>
                         <button className='signup-btn me-4'>SIGN UP</button>
                     </Link>

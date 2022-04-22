@@ -45,4 +45,18 @@
     .service-container {
         flex-direction: column;
     }
+
+    .service-title {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .service-container {
+        flex-direction: column;
+    }
+
+    .service-title {
+        margin-top: 10px;
+    }
 }

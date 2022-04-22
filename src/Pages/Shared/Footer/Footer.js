@@ -17,8 +17,9 @@ const Footer = () => {
                 </div>
                 <div className='address-section'>
                     <h3>OUR LOCATION</h3>
-                    <h6 className='text-left'>
-                        32, Agargoan,<br /> Sher-e-Bangla Nagar Dhaka-1207.
+                    <h6 className=''>
+                        32, Agargoan,<br />
+                        Dhaka-1207.
                     </h6>
                 </div>
             </div>
