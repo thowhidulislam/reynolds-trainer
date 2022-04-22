@@ -9,7 +9,7 @@ const Service = ({ service }) => {
         <Row>
             <Col>
                 <div>
-                    <div className='d-flex mt-5'>
+                    <div className='d-flex mt-5 service-container'>
                         <img src={img} alt="" className='me-5 service-image' />
                         <div>
                             <h3 className='service-title'>{name}</h3>

@@ -5,7 +5,7 @@ import './AboutMe.css'
 
 const AboutMe = () => {
     return (
-        <Container className='mt-5 about-container'>
+        <Container className='mt-5 about-container mb-5'>
             <div>
                 <h2 className='text-center'>Hello, my name is Mike Reynolds, I’m a your new personal trainer!</h2>
             </div>

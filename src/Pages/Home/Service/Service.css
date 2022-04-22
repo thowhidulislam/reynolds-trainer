@@ -39,3 +39,10 @@
     background: rgba(13, 202, 240, 0.513);
 
 }
+
+
+@media only screen and (max-width: 575px) {
+    .service-container {
+        flex-direction: column;
+    }
+}

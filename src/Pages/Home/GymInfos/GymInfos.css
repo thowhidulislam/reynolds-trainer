@@ -1,0 +1,15 @@
+.gym-infos-container {
+    background: #0dcaf0;
+    padding: 50px;
+    color: #fff;
+}
+
+.info h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.info p {
+    font-size: 20px;
+    text-align: center;
+}

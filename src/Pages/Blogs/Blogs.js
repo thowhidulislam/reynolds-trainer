@@ -4,7 +4,7 @@ import './Blogs.css'
 
 const Blogs = () => {
     return (
-        <Container className='blogs'>
+        <Container className='blogs mb-5'>
             <h3 className='mt-5'>Difference Between Authorization and Authentication</h3>
             <p>In authentication process,the identity of users is verified before they are granted access to the system. While in authorization process,the person's or user's authority to access the resources is validated. Users or individuals are verified throughout the authentication procedure. Users or people are validated throughout this procedure. Authorization normally requires the user's login information. While Authentication requires the user's privileges or security levels.</p>
             <h3 className='mt-5'>Why are you using firebase? What other options do you have to implement authentication?</h3>

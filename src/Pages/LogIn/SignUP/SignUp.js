@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import SocialLogIn from '../SocialLogIn/SocialLogIn';
+import { sendEmailVerification } from 'firebase/auth';
 
 const SignUp = () => {
     const [name, setName] = useState('');
@@ -16,7 +17,7 @@ const SignUp = () => {
         user,
         loading,
         error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: 'true' });
 
     const handleUserName = e => {
         setName(e.target.value)
@@ -36,7 +37,7 @@ const SignUp = () => {
         navigate('/home')
     }
     return (
-        <div className='mx-auto w-50'>
+        <div className='mx-auto w-50 mb-5'>
             <h3 className='text-center my-4'>Sign Up</h3>
             <SocialLogIn></SocialLogIn>
             <Form onSubmit={handleSignUp}>
