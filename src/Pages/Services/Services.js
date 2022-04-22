@@ -23,7 +23,7 @@ const Services = () => {
                 ></Service>)
             }
 
-        </Container >
+        </Container>
 
     );
 };

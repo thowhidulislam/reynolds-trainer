@@ -14,12 +14,13 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="info" variant="dark">
             <Container>
-                <Navbar.Brand href="/home">REYNOLDS</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/home">REYNOLDS</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className='ms-auto'>
                         <Nav.Link href="home#services">SERVICES</Nav.Link>
-                        <Nav.Link href="#pricing">ABOUT</Nav.Link>
+                        <Nav.Link as={Link} to="/blogs">BLOGS</Nav.Link>
+                        <Nav.Link as={Link} to="/about">ABOUT</Nav.Link>
                         {
                             user
                                 ?
