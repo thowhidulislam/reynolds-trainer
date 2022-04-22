@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import SocialLogIn from '../SocialLogIn/SocialLogIn';
 
@@ -10,6 +10,7 @@ const LogIn = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const navigate = useNavigate()
+    const location = useLocation()
     const [
         signInWithEmailAndPassword,
         user,
@@ -26,14 +27,17 @@ const LogIn = () => {
     const handlePassword = e => {
         setPassword(e.target.value)
     }
+    let from = location.state?.from?.pathname || "/";
+
+    if (user) {
+        navigate(from, { replace: true })
+    }
 
     const handleLogIn = e => {
         e.preventDefault()
         signInWithEmailAndPassword(email, password)
     }
-    if (user) {
-        navigate('/home')
-    }
+
 
     return (
         <div className='container w-50 mx-auto'>
