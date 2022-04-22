@@ -11,6 +11,7 @@ const LogIn = () => {
     const [password, setPassword] = useState('');
     const navigate = useNavigate()
     const location = useLocation()
+    let errorElement
     const [
         signInWithEmailAndPassword,
         user,
@@ -27,8 +28,11 @@ const LogIn = () => {
     const handlePassword = e => {
         setPassword(e.target.value)
     }
-    let from = location.state?.from?.pathname || "/";
 
+    let from = location.state?.from?.pathname || "/";
+    if (error) {
+        errorElement = <p className='text-danger my-1'>Error: {error.message}</p>
+    }
     if (user) {
         navigate(from, { replace: true })
     }
@@ -55,6 +59,7 @@ const LogIn = () => {
                     Login
                 </Button>
             </Form>
+            {errorElement}
             <p className='mb-0'>Forget Password?<button style={{ paddingLeft: '1px' }} className='btn btn-link text-info text-decoration-none mb-1'>Reset Password</button></p>
             <p>New to Reynolds? <Link to='/signup' className='text-decoration-none text-info'>Please Register</Link></p>
         </div>
