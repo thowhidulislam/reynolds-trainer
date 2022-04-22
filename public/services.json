@@ -2,22 +2,22 @@
     {
         "id": 1,
         "name": "Pilates",
-        "price": "30",
-        "description": "A responsive navigation header, including support for branding, navigation, and more. Here’s an example of all the sub-components included in a responsive light-themed navbar that automatically collapses at the lg (large) breakpoint.",
+        "price": "80",
+        "description": "In a Pilates class, you will be guided by the teacher all throughout the session. You don’t need to decide which exercise to do next. The session will be from 45 to 60 minutes long. It will consist of an easy warm-up and a full-body routine which includes stretching, strength work, and breathing exercises.",
         "img": "https://i.ibb.co/nD8ssVT/pilates-service-1.png"
     },
     {
         "id": 2,
         "name": "Abs",
-        "price": "60",
-        "description": "A responsive navigation header, including support for branding, navigation, and more. Here’s an example of all the sub-components included in a responsive light-themed navbar that automatically collapses at the lg (large) breakpoint.",
+        "price": "90",
+        "description": "Strengthen your abs with array of beginner, intermediate and advanced exercises",
         "img": "https://i.ibb.co/j52K6qX/abs-service-2.png"
     },
     {
         "id": 3,
         "name": "Cardio",
-        "price": "40",
-        "description": "A responsive navigation header, including support for branding, navigation, and more. Here’s an example of all the sub-components included in a responsive light-themed navbar that automatically collapses at the lg (large) breakpoint.",
+        "price": "120",
+        "description": "Cardio vascular exercises help you strengthen the heart and lungs, the critical components of your body and keep you in top of your Physical and Mental Health. What is more, it helps you manage your weight too.This section has the state of the art computerized equipment including Treadmills, Cross Trainers and variety of bikes.",
         "img": " https://i.ibb.co/vH9PhJL/cardio-service-3.png"
     }
 ]

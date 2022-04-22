@@ -1,12 +1,23 @@
-# Getting Started with Create React App
+# Reynolds
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live website Link [Click here](https://reynolds-gym-thowhidulislam.netlify.app).
 
-## Available Scripts
+## Features of the website
+-Used email-password based authentication for registration and login.
+-Services section will name the services the owner will provide.
+-Clicking the enroll button will take you the checkout page.
+-Used blogs for answering some frequently asked questions.
+-To go to the registration page use the Sign Up button on the banner.
+-To know about owner click on the About me button.
 
 In the project directory, you can run:
 
-### `npm start`
+### list of technologies (frameworks, libraries) used in your project
+-React.js
+-Bootstrap
+-React router
+-Toastify
+-Firebase react hooks
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
