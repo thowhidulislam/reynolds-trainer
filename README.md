@@ -11,7 +11,7 @@ Live website Link [Click here](https://reynolds-gym-thowhidulislam.netlify.app).
 - To know about owner click on the About me button.
 
 
-### list of technologies (frameworks, libraries) used in your project
+### Technologies (frameworks, libraries) used in the project
 - React.js
 - Bootstrap
 - React router
